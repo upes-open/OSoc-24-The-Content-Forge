@@ -68,4 +68,9 @@
 > This project is under the OSoC'24. OSoC'24 is organized by [OPEN Community, UPES](https://upes-open.org).
 All the projects are open source with a copyleft license. Kindly go through the licensing terms thoroughly to avoid any issues in code distribution. [LICENSE](). Any violation of the licensing terms will lead to unavoidable consequences
 
+## Architecture
+> **Note:** All changes that will be proposed to the architecture must be discussed on the Discord server first with the project mentor and other teammates. Only after this discussion will those changes be finalized.
+
+![ContentHubArch drawio (1)](https://github.com/upes-open/OSoc-24-The-Content-Forge/assets/123000337/6369d9d0-00d3-4180-bac9-4aa663cf48ac)
+
 ## LICENSE
