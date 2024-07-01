@@ -6,10 +6,10 @@ This microservice handles file uploads to an S3 bucket. It is being build using 
 ### Prerequisites
 
 
-- [Node.js](https://nodejs.org/) (v14 or higher)
+- [Node.js](https://nodejs.org/) (latest ver.)
 - [npm](https://www.npmjs.com/get-npm) (comes with Node.js)
-- [AWS account](https://aws.amazon.com/) with S3 permissions
-- [Docker](https://www.docker.com/) (optional, for containerization)
+- [AWS account](https://aws.amazon.com/) (with S3 permissions)
+- [Docker](https://www.docker.com/) (optionally maybe used if required)
 
 
 ### Installation
@@ -18,7 +18,7 @@ This microservice handles file uploads to an S3 bucket. It is being build using 
 2. Navigate to `server/Storage-DB-Controller-Service`
 3. Install dependencies:
    ```bash
-   npm install express aws-sdk multer dotenv
+   npm install express aws-sdk multer dotenv multer-s3
       ```
 
 
