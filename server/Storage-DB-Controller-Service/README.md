@@ -66,7 +66,8 @@ src/app.js: The main application file that sets up the Express server and includ
 - Dockerfile: Contains the instructions to build a Docker image for the service.
  
 
-### Screenshot 
+### Screenshots 
 
 ![cmd](image-1.png)
+<br>
 ![port 3000](image.png)
