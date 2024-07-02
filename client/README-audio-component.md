@@ -38,4 +38,19 @@ npm run build
 npm run preview
 ```
 
+OR
+
+```bash
+npm start
+```
+### Screenshots :
+
+![image](https://github.com/adx04/The-Content-Forge-app/assets/122734846/47b33882-8332-4b7b-aff3-96af78409974)
+<br>
+<br>
+
+![image](https://github.com/adx04/The-Content-Forge-app/assets/122734846/1b7c92a1-795b-4272-a4a1-19511c1772e0)
+
+
+
 
