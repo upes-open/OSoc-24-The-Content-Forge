@@ -2,7 +2,7 @@
 
   - Feat: Initalized React + Vite Frontend #1 
   - Fixes: None
-  - Update: +5,979 additions
+  - Update: +5,979 -0
 
 - Date `ef9a942e36374793a5d56391e97cd8f697c033b8` [adx04](https://github.com/adx04)
 
@@ -15,6 +15,12 @@
   - Feat: Backend Env Setup #2
   - Fixes: None
   - Update: +12 −0
+
+- Date `f87a7a4fb290133fe533780117d20775e6aa6ab3` [adx04](https://github.com/adx04)
+
+  - Feat: Audio Upload Component #7
+  - Fixes: none
+  - Update: +981 −1,349
 
 - Date `commit_id` [committer's username](committer's github url)
 
