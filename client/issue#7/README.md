@@ -19,9 +19,6 @@ This is a React application component built with Vite, featuring a  component fo
 
 - Node.js (version 14 or later)
 - npm or yarn
-![1](https://github.com/adx04/The-Content-Forge-app/assets/122734846/fecec658-1626-48c7-a9b0-06acf5cd01b2)
-<br>
-![2](https://github.com/adx04/The-Content-Forge-app/assets/122734846/fec1220d-a118-4573-981d-cb3227531151)
 
 ### Installation
 
@@ -42,5 +39,6 @@ npm run preview
 ```
 ### Screenshots
 
+![1](https://github.com/adx04/The-Content-Forge-app/assets/122734846/fecec658-1626-48c7-a9b0-06acf5cd01b2)
 <br>
-
+![2](https://github.com/adx04/The-Content-Forge-app/assets/122734846/fec1220d-a118-4573-981d-cb3227531151)
