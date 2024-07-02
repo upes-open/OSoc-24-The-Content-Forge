@@ -5,7 +5,10 @@
 
 </div>
 
-> Project Description
+## Project Description
+> The Content Hub Is a online platform which acts as a all in one solution helping content creators develop and generate short form video image content utilising genai models and cloud to maximize their efficiency and benefit from the ever-growing developments in ai models. This Project Aims to unite the gap that exist between content creation and efficiency and it does that by integrating ai into the Workflow . This is a multidisciplinary project which will cover frontend ,backend ,ui ux ,devops, cloud and Genai. Built on top of the aws cloud we will ensure that this online platform is the all in one solution to every creators need and with capabilities of creating , generating and editing Audio video and image content on the fly.
+
+
 
 <h2>Technology Stack</h2>
 
