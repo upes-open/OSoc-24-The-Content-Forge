@@ -1,0 +1,11 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-bg-white {
+  background-color: #c2cbd2 !important;
+}
+
+.custom-rounded {
+  border-radius: 40px; 
+}
