@@ -1,9 +1,9 @@
 import React, { useState, useCallback } from 'react';
 import { useDropzone } from 'react-dropzone';
 import axios from 'axios';
-import './VideoUpload.css';
+import './VideoUploadComponent.css'
 
-function Video_Upload_Component() {
+function VideoUploadComponent() {
     const [files, setFiles] = useState([]);
     const [uploadProgress, setUploadProgress] = useState({});
     const [uploadedFile, setUploadedFile] = useState(null);
@@ -44,7 +44,7 @@ function Video_Upload_Component() {
                 <h1 className='text-2xl font-bold text-center mb-8'><b>Video Compenent</b></h1>
                 <div className="video-upload-container">
                     <div className='container'>
-                        <div {...getRootProps({ className: 'dropzone bg-blue-100 rounded-3xl border-4 border-dashed border-blue-500' })}>
+                        <div {...getRootProps({ className: 'dropzone  bg-blue-100 rounded-3xl border-4 border-dashed border-blue-500' })}>
                             <input {...getInputProps()} />
                             <p className='text-lg font-semibold'>Drag 'n' drop some files here</p>
                             <p className="text-lg font-bold">or</p>
@@ -77,7 +77,7 @@ function Video_Upload_Component() {
                 </div>
             </div>
         </div>
-    );
+    )
 }
 
-export default Video_Upload_Component
+export default VideoUploadComponent

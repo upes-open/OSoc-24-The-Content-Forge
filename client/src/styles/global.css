@@ -2,14 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-.custom-bg-white {
-  background-color: #c2cbd2 !important;
-}
-
-.custom-rounded {
-  border-radius: 40px; 
-}
-
 .video-component{
   display: flex;
   justify-content: center;
@@ -19,3 +11,12 @@
   height: 100%;
   width: 100%;
 }
+
+.custom-bg-white {
+  background-color: #c2cbd2 !important;
+}
+
+.custom-rounded {
+  border-radius: 40px; 
+}
+

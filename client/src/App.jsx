@@ -1,6 +1,6 @@
 import { useState, useRef } from "react";
 import "./styles/global.css";
-import Video_Upload_Component from "../components/Video_Upload_Component";
+import VideoUploadComponent from "../components/VideoUploadComponent";
 
 function App() {
   const [selectedFiles, setSelectedFiles] = useState([]);
@@ -223,7 +223,7 @@ function App() {
         </div>
       </div>
       <div className="video-component bg-blue-200">
-        <Video_Upload_Component/>
+        <VideoUploadComponent/>
       </div>
     </>
   );
