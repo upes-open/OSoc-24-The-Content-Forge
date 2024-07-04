@@ -22,13 +22,19 @@
   - Fixes: none
   - Update: +981 −1,349
 
+- Date `66a7e8933c3dece58672831d2ae6de91da5475ea` [nandiniiiiiiii](https://github.com/nandiniiiiiiii)
+
+  - Feat: Video Upload Component Frontend
+  - Fixes: None
+  - Update: +398 −110 
+
 - Date `commit_id` [committer's username](committer's github url)
 
   - Feat: <for features>
   - Fixes: <for bug fixes>
   - Update: <for any update in the code>
 
-- Date `commit_id` [committer's username](committer's github url)
+  - Date `commit_id` [committer's username](committer's github url)
 
   - Feat: <for features>
   - Fixes: <for bug fixes>
