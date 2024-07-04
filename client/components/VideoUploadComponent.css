@@ -1,0 +1,57 @@
+.video-upload-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    height: 80vh;
+    width: 80vw;
+  }
+
+  .box{
+    padding-left: 20px;
+    height: 80vh;
+  }
+  
+  .container{
+    height: 80vh;
+  }
+
+  .dropzone {
+    width: 40vw;
+    height: 70%;
+    padding: 20px;
+    cursor: pointer;
+    text-align: center;
+  }
+  
+  .progress-bar {
+    width: 40vw;
+    background: #e0e0e0;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-top: 10px;
+  }
+  
+  .progress-bar > div {
+    height: 20px;
+    background: #76c7c0;
+    transition: width 0.5s;
+  }
+  
+  .side-panel {
+    transform: translateY(-21%);
+    margin-left: 30px;
+    width: 80%;
+    height: 70%;
+    padding: 20px;
+  }
+  
+  .side-panel h3 {
+    margin-top: 0;
+  }
+  
+  .side-panel video {
+    width: 100%;
+    height: auto;
+  }
+  

@@ -2,6 +2,16 @@
 @tailwind components;
 @tailwind utilities;
 
+.video-component{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  font-size: 1.6rem;
+  height: 100%;
+  width: 100%;
+}
+
 .custom-bg-white {
   background-color: #c2cbd2 !important;
 }
@@ -9,3 +19,4 @@
 .custom-rounded {
   border-radius: 40px; 
 }
+
