@@ -1,13 +1,13 @@
 # Issue 12: Image Content Creation Microservice
 
 ## Description
-This microservice generates detailed images with random patterns, shapes, text, and filters using Python's PIL library.Along with integration of FastAPI is used to build a microservice endpoint that allows clients to request and receive generated images.
+This microservice generates detailed images with random patterns, shapes, text, and filters using Python's PIL library. Along with integration of FastAPI is used to build a microservice endpoint that allows clients to request and receive generated images.
 
 ## Dependencies
 - Python (version 3.x)
 - PIL (Python Imaging Library)
 - FastAPI
-- Uvicorn (ASGI server)
+- Uvicorn 
 
 
 ## How to Run
@@ -15,7 +15,7 @@ This microservice generates detailed images with random patterns, shapes, text, 
  ```bash
    git clone <repository-url>
    cd <repository-folder>
-   pip install pillow fastapi uvicorn
+   pip install fastapi uvicorn
  ```
 
 2. **how to run the service**
@@ -44,7 +44,6 @@ for eg:
 
 ![alt text](assets/sample_input.png)
 
-<br>
 <br>
 
 #### result_image (Output)
