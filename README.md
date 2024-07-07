@@ -76,4 +76,8 @@ All the projects are open source with a copyleft license. Kindly go through the 
 
 ![ContentHubArch drawio (1)](https://github.com/upes-open/OSoc-24-The-Content-Forge/assets/123000337/6369d9d0-00d3-4180-bac9-4aa663cf48ac)
 
+## Contributions 
+
+![Alt](https://repobeats.axiom.co/api/embed/84020e17fc073bfa62653888b2dd026d9a5c402d.svg "Repobeats analytics image")
+
 ## LICENSE

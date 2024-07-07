@@ -24,9 +24,27 @@
 
 - Date `66a7e8933c3dece58672831d2ae6de91da5475ea` [nandiniiiiiiii](https://github.com/nandiniiiiiiii)
 
-  - Feat: Video Upload Component Frontend
+  - Feat: Video Upload Component Frontend #6
   - Fixes: None
   - Update: +398 −110 
+
+- Date `dd361d185565af899bcb38046b110cf54807a613` [Siddharthaaa21](https://github.com/Siddharthaaa21)
+
+  - Feat: Containerize the Frontend #13
+  - Fixes: None
+  - Update: +33 -0
+
+- Date `0f1cdf87d03747f466a0fa803fa06dda565c6b9a` [[adx04](https://github.com/adx04)
+
+  - Feat: image content-creation microservice #12 
+  - Fixes: None
+  - Update: +218 -0
+
+- Date `b2e79fe605b099b9929ea3bca9ffad93dd607132` [Siddharthaaa21](https://github.com/Siddharthaaa21)
+
+  - Feat: Whisper service for Audio processing and Subtitle generation #4
+  - Fixes: None
+  - Update: +140 -0
 
 - Date `commit_id` [committer's username](committer's github url)
 
@@ -34,8 +52,8 @@
   - Fixes: <for bug fixes>
   - Update: <for any update in the code>
 
-  - Date `commit_id` [committer's username](committer's github url)
+- Date `commit_id` [committer's username](committer's github url)
 
   - Feat: <for features>
   - Fixes: <for bug fixes>
-  - Update: <for any update in the code>
+  - Update: <for any update in the code> -
