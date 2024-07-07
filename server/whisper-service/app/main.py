@@ -60,3 +60,24 @@ async def transcribe_audio(
         response['file_url'] = file_url
 
     return response
+
+# Example usage endpoint
+@app.get("/example_transcribe")
+async def example_transcribe():
+    # Path to your sample audio file
+    example_file_path = "D:/sample.mp3"  
+    s3_access_key = "your_s3_access_key"  # Replace with actual value
+    s3_secret_key = "your_s3_secret_key"  # Replace with actual value
+    s3_bucket_name = "your_s3_bucket_name"  # Replace with actual value
+
+    with open(example_file_path, "rb") as file:
+        audio_file = UploadFile(filename="sample_audio.mp3", file=file, content_type="audio/mpeg")
+
+        response = await transcribe_audio(
+            file=audio_file,
+            s3_access_key=s3_access_key,
+            s3_secret_key=s3_secret_key,
+            s3_bucket_name=s3_bucket_name
+        )
+        
+    return response
