@@ -27,8 +27,9 @@ const UserType = z.object({
 
 const oAuthUserRegister = asyncHandler(
   async (req: AuthenticatedRequest, res: Response) => {
-    const { role, username } = req.body;
+    const { role } = req.body;
     const { email, firebase_uid } = req.user;
+    const username = email?.split("@")[0];
 
     if (!role || !email || !firebase_uid || !username)
       throw new ApiError(409, "All fields are required");
