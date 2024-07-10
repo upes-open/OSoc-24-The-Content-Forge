@@ -11,6 +11,9 @@
     "start": "vite"
   },
   "dependencies": {
+    "@ffmpeg/core": "^0.12.6",
+    "@ffmpeg/ffmpeg": "^0.12.10",
+    "@ffmpeg/util": "^0.12.1",
     "@hookform/resolvers": "^3.9.0",
     "@types/js-cookie": "^3.0.6",
     "axios": "^1.7.2",
