@@ -1,0 +1,35 @@
+{
+  "name": "auth-service",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "rimraf dist && npx tsc",
+    "prestart": "npm run build",
+    "start": "node dist/index.js",
+    "preserve": "npm run build",
+    "dev": "concurrently \"npx tsc -w\" \"node --watch dist/index.js\""
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/bcrypt": "^5.0.2",
+    "@types/cookie-parser": "^1.4.7",
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.21",
+    "@types/jsonwebtoken": "^9.0.6",
+    "@types/node": "^20.14.9",
+    "bcrypt": "^5.1.1",
+    "concurrently": "^8.2.2",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "firebase-admin": "^12.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.4.5",
+    "rimraf": "^5.0.7",
+    "zod": "^3.23.8"
+  }
+}
