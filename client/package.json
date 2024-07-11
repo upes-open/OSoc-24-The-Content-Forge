@@ -11,11 +11,14 @@
     "start": "vite"
   },
   "dependencies": {
+    "@aws-sdk/client-s3": "^3.614.0",
+    "@aws-sdk/s3-request-presigner": "^3.614.0",
     "@ffmpeg/core": "^0.12.6",
     "@ffmpeg/ffmpeg": "^0.12.10",
     "@ffmpeg/util": "^0.12.1",
     "@hookform/resolvers": "^3.9.0",
     "@types/js-cookie": "^3.0.6",
+    "aws-sdk": "^2.1658.0",
     "axios": "^1.7.2",
     "firebase": "^10.12.3",
     "js-cookie": "^3.0.5",
