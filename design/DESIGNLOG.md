@@ -16,17 +16,19 @@ This document records all changes made to the design files. Each entry should in
    https://www.figma.com/design/YPy9AeWjCTJv3gw1DuzL8w/TheContentHub?node-id=0-1&t=kQOegQHGwF1BjKyP-1
    ]
 
-## [Date: YYYY-MM-DD]
+## [Date: 2024-07-11]
 
-**Author:** [Author Name]
+**Author:** [Parth Dhavan]
 
 **Changes:**
-- [Description of change 1]
-- [Description of change 2]
-- [Description of change 3]
+- [Built the UI for Audio , Video And Image Pages ]
+
 
 **Notes:**
-- [Any additional notes or comments]
+- [Made Login,SignUp,Generator page(with proper upload,generate,view in browser and download buttons),Gallery and Contact Us page. Gave proper navigation links for the buttons.Also made a phone view for the Generator page.
+https://www.figma.com/design/YPy9AeWjCTJv3gw1DuzL8w/TheContentHub?node-id=0-1&t=kQOegQHGwF1BjKyP-1]
+
+
 
 ---
 
