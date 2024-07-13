@@ -1,26 +1,25 @@
-import { useState, useRef } from "react";
-import "./styles/global.css";
-import VideoUploadComponent from "../components/VideoUploadComponent";
+import { useState, useRef } from 'react';
+import './styles/global.css';
+import VideoUploadComponent from '../components/VideoUploadComponent';
 
 function App() {
   const [selectedFiles, setSelectedFiles] = useState([]);
-  const [error, setError] = useState("");
+  const [error, setError] = useState('');
   const [uploadProgress, setUploadProgress] = useState({});
 
   const fileInputRef = useRef(null);
-  const acceptedFileExtensions = ["mp3", "wav", "aac", "ogg"];
+  const acceptedFileExtensions = ['mp3', 'wav', 'aac', 'ogg'];
 
   const acceptedFileTypesString = acceptedFileExtensions
     .map((ext) => `.${ext}`)
-    .join(",");
+    .join(',');
 
   const handleSubmit = () => {
     if (selectedFiles.length === 0) {
-      setError("File is required");
+      setError('File is required');
     } else if (!error) {
-
       setSelectedFiles([]);
-      setError("");
+      setError('');
       setUploadProgress({});
     }
   };
@@ -39,13 +38,13 @@ function App() {
   const processFiles = (filesArray) => {
     const newSelectedFiles = [...selectedFiles];
     let hasError = false;
-    const fileTypeRegex = new RegExp(acceptedFileExtensions.join("|"), "i");
+    const fileTypeRegex = new RegExp(acceptedFileExtensions.join('|'), 'i');
     filesArray.forEach((file) => {
       if (newSelectedFiles.some((f) => f.name === file.name)) {
-        setError("File names must be unique");
+        setError('File names must be unique');
         hasError = true;
-      } else if (!fileTypeRegex.test(file.name.split(".").pop())) {
-        setError(`Only ${acceptedFileExtensions.join(", ")} files are allowed`);
+      } else if (!fileTypeRegex.test(file.name.split('.').pop())) {
+        setError(`Only ${acceptedFileExtensions.join(', ')} files are allowed`);
         hasError = true;
       } else {
         newSelectedFiles.push(file);
@@ -54,14 +53,14 @@ function App() {
     });
 
     if (!hasError) {
-      setError("");
+      setError('');
       setSelectedFiles(newSelectedFiles);
     }
   };
 
   const uploadFile = (file) => {
     const xhr = new XMLHttpRequest();
-    xhr.open("POST", "your_upload_endpoint_here"); // Replace with desired upload endpoint
+    xhr.open('POST', 'your_upload_endpoint_here'); // Replace with desired upload endpoint
     xhr.upload.onprogress = (event) => {
       if (event.lengthComputable) {
         const copy = { ...uploadProgress };
@@ -76,14 +75,14 @@ function App() {
         copy[file.name] = 100; // Ensuring it shows as complete
         setUploadProgress(copy);
       } else {
-        setError("Failed to upload file");
+        setError('Failed to upload file');
       }
     };
 
-    xhr.onerror = () => setError("Failed to upload file");
+    xhr.onerror = () => setError('Failed to upload file');
 
     const formData = new FormData();
-    formData.append("file", file);
+    formData.append('file', file);
     xhr.send(formData);
   };
 
@@ -102,7 +101,7 @@ function App() {
 
   const handleFileDownload = (file) => {
     const url = URL.createObjectURL(file);
-    const a = document.createElement("a");
+    const a = document.createElement('a');
     a.href = url;
     a.download = file.name;
     document.body.appendChild(a);
@@ -162,13 +161,19 @@ function App() {
                       <div className="flex items-center w-full">
                         <span className="text-base">{file.name}</span>
                       </div>
-                      <audio controls src={URL.createObjectURL(file)} className="w-full mt-2">
+                      <audio
+                        controls
+                        src={URL.createObjectURL(file)}
+                        className="w-full mt-2"
+                      >
                         Your browser does not support the audio element.
                       </audio>
                       <div className="w-full bg-gray-200 rounded-full h-4 mt-2">
                         <div
                           className="bg-blue-500 h-4 rounded-full"
-                          style={{ width: `${uploadProgress[file.name] || 0}%` }}
+                          style={{
+                            width: `${uploadProgress[file.name] || 0}%`,
+                          }}
                         ></div>
                       </div>
                       <div className="flex justify-between w-full mt-2">
@@ -223,7 +228,7 @@ function App() {
         </div>
       </div>
       <div className="video-component bg-blue-200">
-        <VideoUploadComponent/>
+        <VideoUploadComponent />
       </div>
     </>
   );
